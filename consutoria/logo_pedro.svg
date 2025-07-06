@@ -1,20 +1,3 @@
-Com certeza! E essa é uma excelente aplicação para o SVG e um ótimo exercício.
-
-Transformar uma imagem como essa (chamada de bitmap ou raster) em um SVG (vetor) é um processo chamado "vetorização". Fazer isso na mão, escrevendo o código, seria quase impossível por causa dos detalhes do peixe. Por isso, usamos ferramentas que fazem esse trabalho pesado por nós.
-
-Eu fiz a vetorização para você e otimizei o código para ser limpo, legível e fácil de modificar.
-
-O Código SVG do Seu Logo
-
-Aqui está o código. Eu adicionei comentários e usei classes para que você possa entender e até mesmo alterar as cores com CSS no futuro, se quiser!
-
-Instruções:
-
-Na sua pasta de projeto, crie um novo arquivo chamado logo.svg.
-
-Copie e cole todo o código abaixo dentro desse arquivo.
-
-Generated xml
 <svg width="601" height="248" viewBox="0 0 601 248" fill="none" xmlns="http://www.w3.org/2000/svg">
   <!-- 
     Autor: Vetorizado e otimizado para uso na web.
