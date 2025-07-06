@@ -68,35 +68,3 @@ Generated xml
     <path class="cor-verde" d="M547.45 174.42V160.32H550.63V174.42H547.45Z"/>
   </g>
 </svg>
-
-Como Usar no seu HTML
-
-Agora que você tem o arquivo logo.svg, você pode usá-lo no seu index.html como se fosse uma imagem normal. É a forma mais fácil e recomendada.
-
-No seu <header>, substitua o texto do logo por isso:
-
-Generated html
-<div class="logo">
-    <!-- O navegador vai tratar o SVG como uma imagem normal -->
-    <a href="#"><img src="logo.svg" alt="Logo P&A Consultoria"></a>
-</div>
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Html
-IGNORE_WHEN_COPYING_END
-
-Ajuste a altura ou largura (height ou width) da imagem no seu CSS, se necessário.
-
-Entendendo o Código (Super Simplificado)
-
-<svg>: A tag que diz "aqui começa um gráfico vetorial". viewBox é importante para ele escalar corretamente.
-
-<style>: Igual ao CSS que você já conhece! Eu coloquei as cores aqui para você poder mudá-las facilmente em um só lugar.
-
-<g>: Significa "grupo". Usei para agrupar o ícone e o texto, mantendo tudo organizado.
-
-<path>: O mais importante! Cada tag <path> desenha uma forma complexa. A letra d contém todas as coordenadas e comandos de desenho (parece complicado, mas é só uma lista de instruções para "desenhar daqui até ali").
-
-Você está mandando muito bem! Usar SVG desde o início já te coloca em um nível mais profissional.
